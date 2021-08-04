@@ -7,7 +7,7 @@ from features.build_features import build_features
 from models.train_model import train_model
 
 
-pipeline = Pipeline(name="{{cookiecutter.project_name}}")
+pipeline = Pipeline(name="{{cookiecutter.project_name_normalized}}")
 
 @pipeline.data_ingestion
 def ingest_data() -> Dict:

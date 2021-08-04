@@ -1,7 +1,7 @@
 import os
 os['PIPELINE_ENGINE'] = 'local'
 
-from {{cookiecutter.project_name_normalized}}_pipeline import model_training
+from the_gii_pipeline import model_training
 
 def test_model_training(self):
     data = model_training()
